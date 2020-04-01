@@ -3,6 +3,7 @@
 #create input variable
 day = int(input(f'Type a number from 0-5: '))
 
+#taking action on input
 if day == 0:
     print('Sunday')
 elif day == 1:
