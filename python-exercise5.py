@@ -3,8 +3,8 @@
 #create input variable
 day = int(input(f'Type a number from 0-5: '))
 
-#taking action on input
-if day == 0:
+#taking action on input 
+if day == 6 or 0:
     print('Sleep in')
 elif day == 6:
     print('Sleep in')
