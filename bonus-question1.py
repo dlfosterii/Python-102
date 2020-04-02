@@ -1,13 +1,7 @@
-#Use only one variable, but prompt the user for three pieces of input:
-
-#First pet's name
-#Street you grew up on
-#An adjective
-#Then, print the variable in this format:
-
-#"Hello, the Amazing Cleopatra Peachtree!"
 
 
+#Collect the infomation
 content = f"{input(f'First pets name? ')} {input(f'Street you grew up on? ')}"
 
+#print out the sentence
 print(f'Hello, wonderful {content}!')
